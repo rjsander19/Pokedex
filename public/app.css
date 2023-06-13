@@ -1,0 +1,32 @@
+html {
+    background-image:url("https://pokemondeal.com/wp-content/uploads/2020/12/Pokeball-wallpaper.jpg")
+    }
+    
+    h1 {
+        font-size: 38px;
+        text-align: center;
+        font-family: 'Pokemon Solid', sans-serif;
+    }
+    
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+    
+    .cell{
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    img {
+        height: 66px;
+        width: 66px;
+    }
+    
